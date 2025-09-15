@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <title>final project Tailwind css</title>
+</head>
+
+<body class="bg-white ">
+
+  <!-- Nav-bars -->
+  <div class="max-w-6xl w-full  mx-auto flex  flex-col md:flex-row justify-between items-center p-6">
+    <!-- logo -->
+    <h1 class="text-lg font-bold">CompanyLogo</h1>
+    <!-- nav-links -->
+    <div class="">
+      <ul class="hidden md:flex gap-6 ">
+        <li><a href="#" class="hover:border-indigo-500">Features</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contacts</a></li>
+
+      </ul>
+    </div>
+  </div>
+
+  <!-- Hero section -->
+  <div class="w-full bg-linear-to-r from-cyan-500 to-blue-500  my-6 sm:px-6 sm:py-12 md:px-8 md:py-16  py-10 flex flex-col gap-2 items-center">
+    <h1 class="text-4xl  text-center md:text-4xl font-bold leading-tight max-w-2xl">Transform Your
+      Business</h1>
+    <p class="text-lg  text-center sm:text-xl md:text-lg max-w-xl">Evaluate Your online Presence With Our Cutting-edge
+      Solutions</p>
+    <button class="rounded-full text-center text-gray-50 hover:bg-white hover:text-black border border-slate-200 py-2   px-4 text-center">Get Started</button>
+  </div>
+
+  <!-- Features section -->
+  <div class="bg-gray-50">
+    <div class="bg-gray-50  max-w-6xl mx-auto">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-gray-800 text-center font-bold text-3xl">Why Choose us</h1>
+        <div class="grid grid-colos-1 md:grid-cols-3 gap-4 mt-10">
+
+          <div class="bg-white  rounded-xl text-black shadow-lg p-4">
+            <div class="text-4xl mb-4 text-yellow-500">⚡</div>
+            <h1 class="text-lg font-semibold text-gray-900">Lightning Fast</h1>
+            <p class="text-gray-600 mt-2"> Experience blazing fast performance with our optimized solutions.
+            </p>
+          </div>
+          <!-- car2 -->
+          <div class="bg-white rounded-xl text-black shadow-lg p-4">
+            <div class="text-4xl mb-4 text-yellow-500">⚡</div>
+            <h1 class="text-lg font-semibold text-gray-900">Lightning Fast</h1>
+            <p class="text-gray-600 mt-2"> Experience blazing fast performance with our optimized solutions.
+            </p>
+          </div>
+          <!-- card 3 -->
+          <div class="bg-white rounded-xl text-black shadow-lg p-4">
+            <div class="text-4xl mb-4 text-yellow-500">⚡</div>
+            <h1 class="text-lg font-semibold text-gray-900">Lightning Fast</h1>
+            <p class="text-gray-600 mt-2"> Experience blazing fast performance with our optimized solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testmonials -->
+    <div class="bg-gray-50 max-w-6xl mx-auto ">
+      <div class="max-w-4xl  px-4 mx-auto ">
+
+        <h1 class="text-gray-800 font-bold text-center text-3xl mt-10">What our clients say</h1>
+        <div class="grid md:grid-cols-2 gap-6 mt-10 ">
+          <div class="flex flex-col border border-slate-200 items-start shadow-sm bg-slate-100 ps-4 py-2 rounded-2xl ">
+            <p class="text-gray-600  text-sm leading-relaxed">"Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Numquam, laboriosam."</p>
+            <div class="flex gap-2 mt-4 ">
+              <img class="w-[50px] h-[50px] rounded-full" src="../Assets/Exercise4/prof.jpeg" alt="prof">
+              <div class="flex flex-col">
+                <h2 class="text-gray-600 font-bold  text-2xl">Abdullahi Ibrahim</h2>
+                <h2 class="text-gray-400 font-semibold text-xl">Student</h2>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="flex flex-col border border-slate-200 items-start shadow-sm bg-slate-100 p-4 rounded-2xl ">
+            <p class="text-gray-600  text-sm leading-relaxed">"Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Numquam, laboriosam."</p>
+            <div class="flex gap-2 mt-4 ">
+              <img class="w-[50px] h-[50px] rounded-full" src="../Assets/Exercise4/prof.jpeg" alt="prof">
+              <div class="flex flex-col">
+                <h2 class="text-gray-600 font-bold  text-2xl">Abdullahi Ibrahim</h2>
+                <h2 class="text-gray-400 font-semibold text-xl">Student</h2>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- pracing -->
+    <div class="max-w-6xl mx-auto bg-gray-50 mt-10">
+      <h1 class="text-gray-800 font-bold text-center text-3xl mt-10">Simple , Transparent pricing</h1>
+      <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-6 mt-10">
+        <div class="p-4 shadow-sm rounded-2xl">
+          <h2 class="font-bold text-lg text-gray-600">Starts</h2>
+          <h1 class="text-gray-600 font-bold text-4xl mb-2">29$<span class="text-gray-400 text-2xl">/mo</span></h1>
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-check text-green-400"></i>
+            <p class="text-gray-500 font-semibold">Basic Features</p>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-check text-green-400"></i>
+            <p class="text-gray-500 font-semibold">Five projects</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-check text-green-400"></i>
+            <p class="text-gray-500 font-semibold">Basic support</p>
+          </div>
+
+          <button class="bg-blue-500 w-full h-9 text-center mt-4 rounded-lg py-2 px-4">Get Stated </button>
+        </div>
+
+        <!-- 2 -->
+        <div class="p-4 shadow-sm rounded-2xl border border-indigo-500">
+          <h2 class="font-bold text-lg text-gray-600">Professional</h2>
+          <h1 class="text-gray-600 font-bold text-4xl mb-2">90$<span class="text-gray-400 text-2xl">/mo</span></h1>
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-check text-green-400"></i>
+            <p class="text-gray-500 font-semibold">Advanced Features</p>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-check text-green-400"></i>
+            <p class="text-gray-500 font-semibold">Unlimited projects</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-check text-green-400"></i>
+            <p class="text-gray-500 font-semibold">priority support</p>
+          </div>
+
+          <button class="bg-blue-500 w-full h-9 text-center mt-8 rounded-lg py-2 px-4">Get Stated </button>
+        </div>
+
+        <!-- 3 -->
+        <div class="p-4 shadow-sm rounded-2xl">
+          <h2 class="font-bold text-lg text-gray-600">Enterprice</h2>
+          <h1 class="text-gray-600 font-bold text-4xl mb-2">299$<span class="text-gray-400 text-sm">/mo</span></h1>
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-check text-green-400"></i>
+            <p class="text-gray-500 font-semibold">Custom Features</p>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-check text-green-400"></i>
+            <p class="text-gray-500 font-semibold">dedicated support</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-check text-green-400"></i>
+            <p class="text-gray-500 font-semibold">SLA agreement</p>
+          </div>
+
+          <button class="bg-blue-500 w-full h-9 text-center mt-4 rounded-lg py-2 px-4">Get Stated </button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- contact -->
+    <div class="max-w-6xl mx-auto mt-12">
+      <div class="max-w-4xl mx-auto ">
+        <h1 class="text-black font-bold text-4xl text-center">Get Touch</h1>
+        <form action="" class="shadow-lg bg-slate-100 max-w-xl mx-auto p-12 rounded-lg mt-8">
+          <div class="flex flex-col pl-4">
+            <label for="name" class="text-gray-900 block font-medium text-sm">Name</label>
+            <input
+              class="block border-b border-gray-300 w-full mb-4 bg-transparent py-2 focus:outline-none focus:border-gray-500"
+              type="text" name="" id="">
+            <label for="name" class="text-gray-900 block font-medium text-sm">Email</label>
+            <input
+              class="block border-b border-gray-300 w-full mb-4 bg-transparent py-2 focus:outline-none focus:border-gray-500"
+              type="text" name="" id="">
+            <label for="name" class="text-gray-900 block font-medium text-sm">Message</label>
+            <textarea
+              class="block w-full mt-2 rounded-md border border-gray-300 bg-gray-50 focus:outline-none focus:border-gray-500"
+              name="" id=""></textarea>
+            <button
+              class="inline-flex items-center justify-center rounded-lg bg-blue-600 px-6 py-1 mt-4 hover:bg-blue-500">Send
+              message</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="bg-slate-900 text-gray-300 mt-8">
+  <div class="max-w-6xl mx-auto px-6 py-12 text-white ">
+    <div class="grid grid-colos-1 sm:grid-colos-1 md:grid-cols-4 gap-8">
+      <div>
+        <h2 class="text-2x text-white md:text-3xl font-bold">CompanyLogo</h2>
+        <p class=" text-sm text-gary-400">Transform Your Business With Our Cutting-edge</p>
+      </div>
+      <!-- links -->
+      <div>
+        <h3 class="text-gray-200 text-sm font-semibold uppercase tracking-wide ">Quick Links</h3>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="#" class="hover:text-white">Features</a></li>
+          <li><a href="#" class="hover:text-white">Testimonials</a></li>
+          <li><a href="#" class="hover:text-white">Pricing</a></li>
+          <li><a href="#" class="hover:text-white">Contacts</a></li>
+        </ul>
+      </div>
+
+      <!-- lagal -->
+      <div>
+        <h3 class="text-gray-200 text-sm font-semibold uppercase tracking-wide ">Legal</h3>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="#" class="hover:text-white">Privacy policy</a></li>
+          <li><a href="#" class="hover:text-white">Terms Of Service</a></li>
+        </ul>
+      </div>
+
+      <!-- contact -->
+
+        <div>
+        <h3 class="text-gray-200 text-sm font-semibold uppercase tracking-wide ">Connect</h3>
+        <ul class="mt-3  flex flex-wrap gap-4 text-sm">
+          <li><a href="#" class="hover:text-white">Twitter</a></li>
+          <li><a href="#" class="hover:text-white">LinkedIn</a></li>
+          <li><a href="#" class="hover:text-white">Facebook</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- copy write -->
+     <div class="border-t border-white/10 mt-8 pt-6">
+      <p class="text-xs text-center text-gray-500"> @ 2025 CompanyLogo. All rights reserved. </p>
+     </div>
+  </div>
+  </footer>
+
+</body>
+
+</html>
